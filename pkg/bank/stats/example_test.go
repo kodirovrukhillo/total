@@ -24,6 +24,6 @@ func ExampleAvg() {
 			Category: "Pharmacy",
 		},
 	}
-	result := Total(payment, "Restraunt")
+	result := Total(payment, "Pharmacy")
 	fmt.Println(result)
 }
